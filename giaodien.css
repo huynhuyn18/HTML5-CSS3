@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  
+}
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+    background-color: white;
+}
+header {
+    display: flex; /* Sử dụng Flexbox */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    background-color:
+    #312222 ;
+    color: white;
+    padding: 30px;
+}
+
+header img {
+    margin-right: 20px; /* Thêm khoảng cách giữa ảnh và văn bản */
+    max-width: 100px; /* Giới hạn kích thước ảnh */
+    height: auto; /* Tự động điều chỉnh chiều cao để giữ tỷ lệ */
+}
+nav{
+    background-color: #dcc22a;
+    padding: 5px;
+    text-align: center;
+
+}
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px 40px;
+    color: black;
+    line-height: 25px;
+}
+nav a:hover {
+    text-decoration: underline; /* Gạch chân khi hover */
+}
+section {
+    display: flex;
+    flex-direction: column; /* Thay đổi hướng thành cột */
+    align-items: center; /* Căn giữa các phần tử theo chiều ngang */
+    background-color: #bcdc1c;
+    padding: 30px;
+    text-align: center;
+}
+
+section .content {
+    display: flex;
+    align-items: center; /* Căn giữa ảnh và chữ theo chiều dọc */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+}
+
+section img {
+    margin-left: 20px; /* Thêm khoảng cách giữa chữ và ảnh */
+    max-width: 300px; /* Giới hạn kích thước ảnh */
+    height: auto; /* Tự động điều chỉnh chiều cao để giữ tỷ lệ */
+}
+aside {
+    padding-top: 30px;
+    width: 780px; /* Đặt chiều rộng cho aside */
+    float: left; /* Đặt aside nằm bên trái */
+}
+
+.muc1 {
+    margin-bottom: 50px; /* Khoảng cách giữa các mục */
+}
+
+.con1, .con2 {
+    
+    display: flex; /* Sử dụng Flexbox để sắp xếp theo hàng */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    border: 1px solid chocolate; /* Thêm khung cho mục */
+    padding: 10px; /* Khoảng cách bên trong */
+    border-radius: 5px; /* Bo góc cho khung */
+    margin-bottom: 10px; /* Khoảng cách giữa các mục con */
+    background-color: #f9f9f9; /* Màu nền cho mục */
+}
+
+.con1 img, .con2 img {
+    margin-right: 20px; /* Khoảng cách giữa ảnh và văn bản */
+    max-width: 150px; /* Giới hạn kích thước ảnh */
+    height: auto; /* Tự động điều chỉnh chiều cao để giữ tỷ lệ */
+    border-radius: 50%; /* Bo tròn ảnh */
+    overflow: hidden; /* Đảm bảo không có phần nào của ảnh ra ngoài hình tròn */
+}
+
+article {
+    padding-top: 30px;
+    float: right; /* Đặt article nằm bên phải */
+    width: 400px; /* Đặt chiều rộng cho article */
+}
+
+.muc2 {
+    border: 1px solid chocolate; /* Thêm khung cho mục */
+    padding: 20px; /* Khoảng cách bên trong */
+    border-radius: 8px; /* Bo góc cho mục */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Đổ bóng cho mục */
+}
+
+h2 {
+    text-align: center; /* Căn giữa tiêu đề */
+}
+
+form {
+    display: flex; /* Sử dụng Flexbox */
+    flex-direction: column; /* Sắp xếp các phần tử theo cột */
+}
+
+input, textarea {
+    margin-bottom: 15px; /* Khoảng cách giữa các trường */
+    padding: 10px; /* Khoảng cách bên trong */
+    border: 1px solid #ccc; /* Đường viền cho các trường */
+    border-radius: 4px; /* Bo góc cho các trường */
+}
+
+input:focus, textarea:focus {
+    border-color: #76c7c0; /* Đổi màu viền khi có focus */
+    outline: none; /* Bỏ viền mặc định khi focus */
+}
+
+button {
+    background-color: #76c7c0; /* Màu nền cho nút */
+    color: white; /* Màu chữ */
+    padding: 10px; /* Khoảng cách bên trong */
+    border: none; /* Bỏ viền */
+    border-radius: 4px; /* Bo góc cho nút */
+    cursor: pointer; /* Con trỏ khi hover */
+}
+
+button:hover {
+    background-color: #65b4a8; /* Đổi màu khi hover */
+}
